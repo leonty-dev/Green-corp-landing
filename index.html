@@ -12,14 +12,14 @@
     <img class="header_logo" src="img/Logo.png" alt="Логотип">
     <div>
       <a href="#contacts">Контакты</a>
-      <button>Заказать</button>
+      <button class="button__color">Заказать</button>
     </div>
    </header>
    <section class="about"> <!--добавили центральную секцию с фото и описанием-->
      <div class="about_info">
         <h1>Солнечные панели GreenRobotic</h1>
         <p>Производите дешевую экологичеки чистую электроэнегрию из солнечного света</p>
-        <button>Узнать подробнее</button>
+        <button class="button__color">Узнать подробнее</button> <!--добавиили класс к кнопке, для изменения анимации при наведении-->
      </div>
      <div class="about_images">
       <img class="about_sun-image" src="img/sun.png" alt="Солнце">
@@ -54,11 +54,38 @@
                    <option value="100+">100000P</option>
                  </select>
              </div>
-               <button class="form__submit" type="submit">Отправить заявку</button>
+               <button class="form__submit button__color" type="submit">Отправить заявку</button> <!--добавиили класс к кнопке, для изменения анимации при наведении-->
         </form>
       </div>
    </section>
+   <footer> <!--создаем подвал сайта и делаем два основных блока-->
+     <div class="footer__container"> <!--1 блок-->
+       <div class="footer__group">
+         <h3>Позвонить нам:</h3>
+         <div class="footer__links"> <!--каждую ссылку оборачиваем в div-->
+           <a href="tel:74959999999">+7 (495) 999-99-99</a>
+         </div>
+        </div>
+        <div class="footer__group">
+          <h3>Решение для дома:</h3>
+          <div class="footer__links">
+            <a href="#">Cолнечные панели GreenRobotic</a>
+            <a href="#">Системы солнечных панелей GreenStation</a>
+          </div>
+        </div>
+        <div class="footer__group">
+          <h3>Компания</h3>
+          <div class="footer__links">
+            <a href="#">Контакты</a>
+            <a href="#">Вакансии</a>
+            <a href="#">СМИ</a>
+          </div>
+        </div>
+     </div>
+     <div class="footer__copyright">GreenCorp © 2025</div> <!--2 блок-->
+   </footer>
 </body>
 </html>
+
 
 
