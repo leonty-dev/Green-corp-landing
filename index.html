@@ -3,6 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  /> <!--подкл библ анимации-->
+    <link rel="stylesheet" href="FontAw/css/all.min.css"> <!--подключаем библ иконок-->
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;600;700;800&display=swap"> <!--подключили шрифты-->
     <title>Солнечные батареи GreenCorp</title>
@@ -16,12 +21,12 @@
     </div>
    </header>
    <section class="about"> <!--добавили центральную секцию с фото и описанием-->
-     <div class="about_info">
+     <div class="about_info hero-text animate__animated animate__fadeInLeft animate__slow"> <!--добавили анимацию слева-->
         <h1>Солнечные панели GreenRobotic</h1>
         <p>Производите дешевую экологичеки чистую электроэнегрию из солнечного света</p>
-        <button class="button__color">Узнать подробнее</button> <!--добавиили класс к кнопке, для изменения анимации при наведении-->
+        <button class="button__color">Узнать подробнее<i class="fa-solid fa-chevron-right"></i></button> <!--добавиили класс к кнопке, для изменения анимации при наведении-->
      </div>
-     <div class="about_images">
+     <div class="about_images hero-image animate__animated animate__fadeInRight animate__slow"> <!--добавили аним справа-->
       <img class="about_sun-image" src="img/sun.png" alt="Солнце">
       <img class="about_solar_panel-image" src="img/solar_panel.png" alt="Солнечная панель">
      </div>
@@ -84,6 +89,7 @@
      </div>
      <div class="footer__copyright">GreenCorp © 2025</div> <!--2 блок-->
    </footer>
+   <script src="FontAw/js/all.min.js"></script><!--подкл js скрипт-->
 </body>
 </html>
 
